@@ -185,8 +185,13 @@ exec killall -q polybar
 
 # Sreen brightness controls
 exec  light -N .0666666667
-bindsym XF86MonBrightnessUp exec light -A 5 # increase screen brightness
-bindsym XF86MonBrightnessDown exec light -U 5 # decrease screen brightness
+
+#increase
+bindsym XF86MonBrightnessUp exec sudo /usr/bin/light -A 5
+bindsym $mod+XF86MonBrightnessUp exec sudo /usr/bin/light -S 100
+#decrease
+bindsym XF86MonBrightnessDown exec sudo /usr/bin/light -U 5
+bindsym $mod+XF86MonBrightnessDown exec sudo /usr/bin/light -S .07
 
 exec --no-startup-id light -Scrs "intel_backlight" 1
 
