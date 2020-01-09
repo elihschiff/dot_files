@@ -1,0 +1,482 @@
+<TaskerData sr="" dvi="1" tv="5.9.1">
+	<Profile sr="prof14" ve="2">
+		<cdate>1545853328760</cdate>
+		<edate>1570535868580</edate>
+		<flags>2</flags>
+		<id>14</id>
+		<mid0>7</mid0>
+		<mid1>15</mid1>
+		<State sr="con0" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BTCONNECTED</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+	</Profile>
+	<Profile sr="prof17" ve="2">
+		<cdate>1560615558381</cdate>
+		<edate>1577596429793</edate>
+		<id>17</id>
+		<limit>true</limit>
+		<mid0>16</mid0>
+		<Event sr="con0" ve="2">
+			<code>7</code>
+			<pri>0</pri>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof20" ve="2">
+		<cdate>1560377337277</cdate>
+		<edate>1562006344350</edate>
+		<flags>2</flags>
+		<id>20</id>
+		<limit>true</limit>
+		<mid0>18</mid0>
+		<Time sr="con0">
+			<fh>23</fh>
+			<fm>59</fm>
+			<th>23</th>
+			<tm>59</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof22" ve="2">
+		<cdate>1560377478467</cdate>
+		<edate>1562006343823</edate>
+		<flags>2</flags>
+		<id>22</id>
+		<limit>true</limit>
+		<mid0>21</mid0>
+		<Time sr="con0">
+			<fromvar>%RANDOMTIME</fromvar>
+			<tovar>%RANDOMTIME</tovar>
+		</Time>
+	</Profile>
+	<Profile sr="prof3" ve="2">
+		<cdate>1545794993207</cdate>
+		<edate>1560611107864</edate>
+		<flags>2</flags>
+		<id>3</id>
+		<mid0>2</mid0>
+		<mid1>4</mid1>
+		<App sr="con0" ve="2">
+			<cls0>com.oneplus.camera.OPCameraActivity</cls0>
+			<cls1>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls1>
+			<cls2>org.videolan.vlc.StartActivity</cls2>
+			<cls3>com.mxtech.videoplayer.ad.ActivityWelcomeMX</cls3>
+			<cls4>com.google.android.apps.photos.home.HomeActivity</cls4>
+			<cls5>com.netflix.mediaclient.ui.launch.UIWebViewActivity</cls5>
+			<cls6>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls6>
+			<cls7>tv.twitch.android.app.core.LandingActivity</cls7>
+			<cls8>org.schabi.newpipe.MainActivity</cls8>
+			<flags>2</flags>
+			<label0>Camera</label0>
+			<label1>YouTube</label1>
+			<label2>VLC</label2>
+			<label3>MX Player</label3>
+			<label4>Photos</label4>
+			<label5>Netflix</label5>
+			<label6>YouTube Vanced</label6>
+			<label7>Twitch</label7>
+			<label8>NewPipe</label8>
+			<pkg0>com.oneplus.camera</pkg0>
+			<pkg1>com.google.android.youtube</pkg1>
+			<pkg2>org.videolan.vlc</pkg2>
+			<pkg3>com.mxtech.videoplayer.ad</pkg3>
+			<pkg4>com.google.android.apps.photos</pkg4>
+			<pkg5>com.netflix.mediaclient</pkg5>
+			<pkg6>com.vanced.android.youtube</pkg6>
+			<pkg7>tv.twitch.android.app</pkg7>
+			<pkg8>org.schabi.newpipe</pkg8>
+		</App>
+	</Profile>
+	<Profile sr="prof5" ve="2">
+		<cdate>1570535685125</cdate>
+		<edate>1570535845627</edate>
+		<flags>2</flags>
+		<id>5</id>
+		<limit>true</limit>
+		<mid0>19</mid0>
+		<mid1>23</mid1>
+		<Time sr="con0">
+			<fh>8</fh>
+			<fm>0</fm>
+			<th>10</th>
+			<tm>0</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof8" ve="2">
+		<cdate>1545852004347</cdate>
+		<edate>1570535861887</edate>
+		<flags>2</flags>
+		<id>8</id>
+		<mid0>11</mid0>
+		<mid1>12</mid1>
+		<State sr="con0" ve="2">
+			<code>3</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3"/>
+		</State>
+	</Profile>
+	<Profile sr="prof9" ve="2">
+		<cdate>1545852189817</cdate>
+		<edate>1560102799565</edate>
+		<flags>2</flags>
+		<id>9</id>
+		<mid0>10</mid0>
+		<mid1>13</mid1>
+		<App sr="con0" ve="2">
+			<cls0>com.google.android.googlequicksearchbox.SearchActivity</cls0>
+			<cls1>com.google.android.maps.MapsActivity</cls1>
+			<cls2>com.waze.FreeMapAppActivity</cls2>
+			<flags>2</flags>
+			<label0>Google</label0>
+			<label1>Maps</label1>
+			<label2>Waze</label2>
+			<pkg0>com.google.android.googlequicksearchbox</pkg0>
+			<pkg1>com.google.android.apps.maps</pkg1>
+			<pkg2>com.waze</pkg2>
+		</App>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1545719237832</cdate>
+		<mdate>1570535750480</mdate>
+		<name>Base</name>
+		<pids>3,8,9,14,20,22,17,5</pids>
+		<tids>2,10,7,11,12,13,4,6,15,18,21,16,19,23</tids>
+		<Img sr="icon" ve="2">
+			<nme>mw_action_home</nme>
+		</Img>
+	</Project>
+	<Task sr="task10">
+		<cdate>1545852197658</cdate>
+		<edate>1560102799565</edate>
+		<id>10</id>
+		<nme>Max Volume</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OLDVOL</Str>
+			<Str sr="arg1" ve="3">%VOLM</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="30"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BTCONNECTED</lhs>
+					<op>8</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task11">
+		<cdate>1545852708521</cdate>
+		<edate>1559276086465</edate>
+		<id>11</id>
+		<nme>BTCONNECTED on</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BTCONNECTED</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+	</Task>
+	<Task sr="task12">
+		<cdate>1545852759887</cdate>
+		<edate>1570535861887</edate>
+		<id>12</id>
+		<nme>BTCONNECTED off</nme>
+		<pri>1006</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BTCONNECTED</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+	</Task>
+	<Task sr="task13">
+		<cdate>1545853162028</cdate>
+		<edate>1559276137418</edate>
+		<id>13</id>
+		<nme>Reset Volume</nme>
+		<pri>1006</pri>
+		<Action sr="act0" ve="7">
+			<code>307</code>
+			<Int sr="arg0">
+				<var>%OLDVOL</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OLDVOL</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+	</Task>
+	<Task sr="task15">
+		<cdate>1547233917124</cdate>
+		<edate>1570535868580</edate>
+		<id>15</id>
+		<nme>No Volume</nme>
+		<pri>1006</pri>
+		<Action sr="act0" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="7"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task16">
+		<cdate>1560615371759</cdate>
+		<edate>1560619233642</edate>
+		<id>16</id>
+		<nme>Extract Code</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SMSRB</lhs>
+					<op>4</op>
+					<rhs>[0-9]{4,}</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%SMSRB</Str>
+			<Str sr="arg1" ve="3">[0-9]{4,}</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%code</Str>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Here is your 2fa Token</Str>
+			<Str sr="arg1" ve="3">%code1</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3">2fa</Str>
+			<Img sr="arg2" ve="2">
+				<nme>mw_hardware_security</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="8"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+			<ListElementItem sr="item0">
+				<label>Copy 2fa token</label>
+				<Action sr="action" ve="7">
+					<code>105</code>
+					<Str sr="arg0" ve="3">%code1</Str>
+					<Int sr="arg1" val="0"/>
+				</Action>
+			</ListElementItem>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task18">
+		<cdate>1560377046493</cdate>
+		<edate>1560377354399</edate>
+		<id>18</id>
+		<nme>Reset Random Time</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>545</code>
+			<Str sr="arg0" ve="3">%hour</Str>
+			<Int sr="arg1" val="17"/>
+			<Int sr="arg2" val="19"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>545</code>
+			<Str sr="arg0" ve="3">%min</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="59"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%RANDOMTIME</Str>
+			<Str sr="arg1" ve="3">%hour.%min</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+	</Task>
+	<Task sr="task19">
+		<cdate>1570535695488</cdate>
+		<edate>1570535802717</edate>
+		<id>19</id>
+		<nme>Airplane Mode On</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>425</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task2">
+		<cdate>1545794849802</cdate>
+		<edate>1545852894069</edate>
+		<id>2</id>
+		<nme>Auto Rotate On</nme>
+		<Action sr="act0" ve="7">
+			<code>822</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task21">
+		<cdate>1560377406642</cdate>
+		<edate>1560385526227</edate>
+		<id>21</id>
+		<nme>Send SMS</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>118</code>
+			<Str sr="arg0" ve="3">autotext.glitch.me</Str>
+			<Str sr="arg1" ve="3">msg</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="30"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="30"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>118</code>
+			<Str sr="arg0" ve="3">autotext.glitch.me</Str>
+			<Str sr="arg1" ve="3">msg</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="30"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>41</code>
+			<Str sr="arg0" ve="3">6465745224</Str>
+			<Str sr="arg1" ve="3">%TIME %HTTPD</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task23">
+		<cdate>1570535724894</cdate>
+		<edate>1570535845627</edate>
+		<id>23</id>
+		<nme>Airplane Mode Off</nme>
+		<Action sr="act0" ve="7">
+			<code>425</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task4">
+		<cdate>1546573164175</cdate>
+		<edate>1546573176729</edate>
+		<id>4</id>
+		<nme>Auto Rotate Off</nme>
+		<pri>1006</pri>
+		<Action sr="act0" ve="7">
+			<code>822</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task6">
+		<cdate>1546960471476</cdate>
+		<edate>1559276147501</edate>
+		<id>6</id>
+		<nme>Lower If Max Vol</nme>
+		<Action sr="act0" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="5"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%VOLM</lhs>
+					<op>7</op>
+					<rhs>28</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="7"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task7">
+		<cdate>1545851883816</cdate>
+		<edate>1559276517693</edate>
+		<id>7</id>
+		<nme>Lower Volume</nme>
+		<Action sr="act0" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="5"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%VOLM</lhs>
+					<op>7</op>
+					<rhs>5</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="7"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
